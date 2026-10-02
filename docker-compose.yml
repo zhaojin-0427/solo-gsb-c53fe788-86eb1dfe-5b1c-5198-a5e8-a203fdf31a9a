@@ -1,0 +1,7 @@
+services:
+  router:
+    build: .
+    image: two-layer-grid-router
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
